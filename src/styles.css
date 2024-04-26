@@ -1,0 +1,31 @@
+.progress-container {
+    background-color: #f8f9fa; /* bg-light */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.progress {
+    height: 15px; /* Aumenta la altura de la barra de progreso */
+    width: 80%; /* Reduce el ancho al 80% */ /* Centra la barra de progreso horizontalmente */
+    margin-bottom: 5px;
+}
+.progress-bar {
+    line-height: 15px; /* Centra el texto verticalmente en la barra de progreso */
+}
+
+.relative-parent {
+    position: relative;
+    min-height: 100vh;
+}
+.relative-bottom-container {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.social-icon {
+    font-size: 24px; /* Tamaño de los iconos */
+    margin: 10px;  /* Espacio alrededor de los iconos */
+    color: #333;   /* Color de los iconos */
+}
